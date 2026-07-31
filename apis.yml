@@ -1,8 +1,24 @@
 aid: neeva
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neeva.png
 name: Neeva
-description: 'Neeva is a company surfaced as a portfolio company of greylock and added to the API Evangelist
-  network as a stub for enrichment. Sector: applications. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Neeva was an ad-free, subscription-based consumer search engine founded in 2019 by former
+  Google executives Sridhar Ramaswamy and Vivek Raghunathan, backed by Greylock and Sequoia. It positioned
+  itself as a privacy-first alternative to Google, later adding an AI-powered answer engine (NeevaAI).
+  Neeva was acquired by Snowflake in May 2023, and its consumer search product was shut down on June 2,
+  2023, with the team and technology folding into Snowflake to power enterprise search and generative-AI
+  features. The company no longer operates an independent product, developer program, or public API; this
+  profile is retained as a historical portfolio-company record.'
 url: https://raw.githubusercontent.com/api-evangelist/neeva/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Applications
+- Search
+- Search Engine
+- Artificial Intelligence
+- Consumer
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/neeva-domain-security.yml
 - type: Website
-  url: https://adfs4.sts.altareturn.com/adfs/ls/?wa=wsignin1.0&amp;wtrealm=urn%3aportal%3agreylock&amp;wctx=https%3a%2f%2fgreylock.altareturn.com%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252F&amp;wreply=https%3a%2f%2fgreylock.altareturn.com%2f_trust%2fdefault.aspx
+  url: https://neeva.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
