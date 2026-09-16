@@ -23,13 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neeva.png
 name: Neeva
-description: 'Neeva was an ad-free, subscription-based consumer search engine founded in 2019 by former
+description: Neeva was an ad-free, subscription-based consumer search engine founded in 2019 by former
   Google executives Sridhar Ramaswamy and Vivek Raghunathan, backed by Greylock and Sequoia. It positioned
   itself as a privacy-first alternative to Google, later adding an AI-powered answer engine (NeevaAI).
   Neeva was acquired by Snowflake in May 2023, and its consumer search product was shut down on June 2,
   2023, with the team and technology folding into Snowflake to power enterprise search and generative-AI
   features. The company no longer operates an independent product, developer program, or public API; this
-  profile is retained as a historical portfolio-company record.'
+  profile is retained as a historical portfolio-company record.
 url: https://raw.githubusercontent.com/api-evangelist/neeva/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
 - Application
@@ -74,3 +74,4 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+x-status: defunct
